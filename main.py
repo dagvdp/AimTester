@@ -17,7 +17,7 @@ pygame.display.set_caption(screen1.title)
 font = pygame.font.SysFont("monospace", 50)
 
 time = 3600
-time_text = font.render(F"Time Left: {str(time/60)}", True, "green")
+time_text = font.render(F"Time Left: {int(time/60)}", True, "green")
 time_rect = time_text.get_rect(center=(screen1.width/5, screen1.height/16))
 
 score = 0
