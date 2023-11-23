@@ -6,4 +6,4 @@ class Screen:
     title = "First Game"
 
 class Font:
-    roboto = pygame.font.SysFont("fonts\Roboto-Light.ttf", 50)
+    monospace = pygame.font.SysFont("monospace", 50)
