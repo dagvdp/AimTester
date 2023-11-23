@@ -33,6 +33,12 @@ Start the server
 
 ## Generating exe
 
+Install dependencies
+
+```bash
+  pip install pyinstaller
+```
+
 Generate the same .exe with this command
 
 ```bash
